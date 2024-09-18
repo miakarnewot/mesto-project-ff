@@ -20,8 +20,8 @@ function createCards(item, removeCard) {
     return card;
   };
 // @todo: Функция удаления карточки
-function removeCard(evt) {  
-    evt.remove();
+function removeCard(cardElement) {  
+  cardElement.remove();
   }; 
 // @todo: Вывести карточки на страницу
 initialCards.forEach(function(item) {
